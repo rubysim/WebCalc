@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Calculator</title>
+  <script src="/main.js"></script>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div id="ui">
+      <input type="text" name="equation" id="equation" placeholder="enter equation">
+      <input type="text" name="result" id="result" placeholder="result">
+
+      <div id="clearTextDiv">
+        <input type="button" value="Clear" class="clear" name="clear" id="clear">
+        <input type="button" value="Backspace" class="clear" name="backspace" id="backspace">
+      </div>
+
+      <div id="operatorsDiv" class="op-append">
+        <input type="button" value="+" class="operators" name="add" id="add">
+        <input type="button" value="-" class="operators" name="sub" id="sub">
+        <input type="button" value="*" class="operators" name="mult" id="mult">
+        <input type="button" value="/" class="operators" name="div" id="div">
+      </div>
+
+      <div class="operandsDiv op-append">
+        <input type="button" value="1" class="operands" name="one" id="one">
+        <input type="button" value="2" class="operands" name="two" id="two">
+        <input type="button" value="3" class="operands" name="three" id="three">
+
+        <input type="button" value="(" class="operators" name="open" id="open">
+      </div>
+
+      <div class="operandsDiv op-append">
+        <input type="button" value="4" class="operands" name="four" id="four">
+        <input type="button" value="5" class="operands" name="five" id="five">
+        <input type="button" value="6" class="operands" name="six" id="six">
+
+        <input type="button" value=")" class="operators" name="close" id="close">
+      </div>
+
+      <div class="operandsDiv op-append">
+        <input type="button" value="7" class="operands" name="seven" id="seven">
+        <input type="button" value="8" class="operands" name="eight" id="eight">
+        <input type="button" value="9" class="operands" name="nine" id="nine">
+
+        <input type="button" value="0" class="operands" name="zero" id="zero">
+      </div>
+
+      <div id="clearTextDiv">
+        <input type="button" value="Evaluate" class="" name="equal" id="evaluate">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "calculator_js",
+  "version": "1.0.0",
+  "description": "Calculator using Bodmas rule",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "mocha": "^9.1.1",
+    "sass": "^1.40.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "start": "webpack --mode=development --config webpack.config.js && node server.js",
+    "watch": "webpack --watch --mode=development --config webpack.config.js",
+    "test": "mocha",
+    "build": "webpack --mode=production --config webpack.config.js"
+  },
+  "keywords": [
+    "Caculator",
+    "Bodmas"
+  ],
+  "author": "Tianming Li",
+  "license": "ISC"
+}
